@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav a {
+    margin-right: 20px;
+ 
+}
+#nav a.topimage {
+    width: 25px;
+    height: 25px;
+    background: green;
+    border-radius: 10px;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#icon{
+    text-align: left;
+}
+#logo{
+    text-align: center;
+}
+#searchbarcontainer{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+#search,#mic{
+    position: absolute;
+    top:0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search img{
+    width:25px;
+    height: 25px;
+    margin-left: 10px;
+}
+#search{
+    left:0;
+}
+#mic img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+#mic{
+    right:0;
+}
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 550px;
+    padding-left: 50px;
+    padding-right: 30PX;
+    border-radius: 20px;
+    border: 1px solid rgb(107, 105, 105);
+}
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px rgb(211, 209, 209);
+}
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background:rgb(223, 221, 221);
+    border: transparent;
+}
+#links{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px rgb(158, 157, 157);
+    border:2px solid white;
+}
+#footer-content{
+    width: 40;
+    margin-top: 5px;
+    background: rgb(197, 196, 196);
+    border-top: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  #footer1{
+    text-align: right;
+   
+}
